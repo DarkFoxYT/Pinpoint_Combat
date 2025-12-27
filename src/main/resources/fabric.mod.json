@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "pinpoint_combat",
+  "version": "${version}",
+  "name": "pinpoint Combat",
+  "description": "Yes",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/pinpoint_combat/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "net.goat.client.pinpoint_combatClient"
+    ],
+    "main": [
+      "net.goat.pinpoint_combat"
+    ]
+  },
+  "mixins": [
+    "pinpoint_combat.mixins.json",
+    {
+      "config": "pinpoint_combat.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
