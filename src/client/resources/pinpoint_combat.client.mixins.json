@@ -4,6 +4,7 @@
   "package": "net.goat.mixin.client",
   "compatibilityLevel": "JAVA_21",
   "client": [
+    "PlayerEntityDisplayNameMixin"
   ],
   "injectors": {
     "defaultRequire": 1
