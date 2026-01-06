@@ -2,19 +2,18 @@
   "schemaVersion": 1,
   "id": "pinpoint_combat",
   "version": "${version}",
-  "name": "pinpoint Combat",
-  "description": "Yes",
+  "name": "Pinpoint Combat",
+  "description": "Adds bell badges for pumpkin seed holders.",
   "authors": [],
   "contact": {},
   "license": "All-Rights-Reserved",
-  "icon": "assets/pinpoint_combat/icon.png",
   "environment": "*",
   "entrypoints": {
     "client": [
-      "net.goat.client.pinpoint_combatClient"
+      "net.goat.client.PinpointCombatClient"
     ],
     "main": [
-      "net.goat.pinpoint_combat"
+      "net.goat.PinpointCombat"
     ]
   },
   "mixins": [
